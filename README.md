@@ -27,12 +27,13 @@ Aplicación de pedidos de comida hecha con React. Permite seleccionar productos,
 
 Cloná el repositorio e instalá las dependencias:
 
-\`\`\`bash
 git clone https://github.com/maaxilopp/FoodApp-Dwym.git
+
 cd FoodApp-Dwym
+
 npm install
+
 npm run dev
-\`\`\`
 
 Luego abrí el navegador en la URL que te muestra la terminal
 
