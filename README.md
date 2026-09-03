@@ -6,9 +6,7 @@ Aplicación de pedidos de comida hecha con React. Permite seleccionar productos,
 
 ## Interfaz gráfica
 
-<img width="1920" height="915" alt="image" src="https://github.com/user-attachments/assets/16ae07c7-2e10-4e9a-be92-b383e2e70124" />
-
-Aplicación de pedidos de comida hecha con React. Permite seleccionar productos, ajustar cantidades y ver la cuenta con el total en tiempo real.
+<img width="1920" height="1215" alt="image" src="https://github.com/user-attachments/assets/16ae07c7-2e10-4e9a-be92-b383e2e70124" />
 
 ##  Funcionalidades
 
