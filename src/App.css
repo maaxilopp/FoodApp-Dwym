@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background: white;
+  color: black;
+}
+
+.app {
+  padding: 24px;
+}
+
+.app h1 {
+  color: blue;
+  text-align: left;
+}
+
+.layout {
+  display: flex;
+  gap: 24px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.tarjeta {
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding: 16px;
+  width: 150px;
+  text-align: center;
+}
+
+.icono {
+  font-size: 48px;
+}
+
+.controles {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.controles button {
+  border: 1px solid blue;
+  background: white;
+  color: blue;
+  cursor: pointer;
+}
+
+.cuenta {
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding: 16px;
+  width: 250px;
+}
+
+.linea {
+  display: flex;
+  gap: 8px;
+}
+
+.remover {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.tarjeta h2,
+.cuenta h2 {
+  margin-top: 20px;
+  color: black;
+  margin-bottom: 2px;
+}
+
+.cuenta h2 {
+  size: 37px;
+  font-weight: bold;
+}
+hr {
+  color: blue;
+  background-color: blue;
+  height: 3px;
+  margin-top: -8px;
+}
+
+#pagar {
+  background-color: rgb(18, 177, 21);
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  border: none;
+  font-weight: bold;
+}
