@@ -1,16 +1,43 @@
-# React + Vite
+# Food App - Trabajo de la asignatura Desarrollo Web y Mobile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/16ae07c7-2e10-4e9a-be92-b383e2e70124" />
 
-Currently, two official plugins are available:
+Aplicación de pedidos de comida hecha con React. Permite seleccionar productos, ajustar cantidades y ver la cuenta con el total en tiempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Funcionalidades
 
-## React Compiler
+- Listado de productos renderizado de forma dinámica
+- Botones **+** / **−** para ajustar la cantidad de cada producto
+- Validaciones: no permite cantidades negativas ni superar el stock disponible
+- El stock disponible se actualiza según lo que agregás
+- Cuenta con el detalle de lo pedido y el cálculo del total
+- Botón para remover un producto de la cuenta
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías utilizadas 
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Cómo ejecutarlo
+
+Cloná el repositorio e instalá las dependencias:
+
+\`\`\`bash
+git clone https://github.com/maaxilopp/FoodApp-Dwym.git
+cd FoodApp-Dwym
+npm install
+npm run dev
+\`\`\`
+
+Luego abrí el navegador en la URL que te muestra la terminal
+
+## Componentes
+
+- **App** → maneja el estado de las cantidades y coordina todo
+- **Producto** → representa cada tarjeta de comida con sus controles
+- **Cuenta** → muestra el detalle del pedido, el total y permite remover ítems
+
+---
+
+Proyecto realizado para el curso **DWYM**.
